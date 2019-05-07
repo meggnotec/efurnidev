@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
-      "RUN pip install virtualenv",
       "ENV NVM_DIR /usr/local/nvm",
       "ENV NODE_VERSION 8.10.0",
       "RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash",
