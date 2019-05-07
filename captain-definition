@@ -12,8 +12,8 @@
       "ENV PATH      $NVM_DIR/v$NODE_VERSION/bin:$PATH",
       "RUN source $NVM_DIR/nvm.sh",
       "RUN npm install -g bigcommerce/stencil-cli --loglevel=error",
-      "RUN mkdir -p /bcstencil/efurni/efurnidev/efurnitheme",
-      "WORKDIR /bcstencil/efurni/efurnidev/efurnitheme",
+      "RUN mkdir -p /bcstencil/efurnit/efurnidev/efurnitheme",
+      "WORKDIR /bcstencil/efurnit/efurnidev/efurnitheme",
       "COPY docker-entrypoint.sh /",
 			"ENTRYPOINT ['/docker-entrypoint.sh']",
 			"CMD ['start']"
